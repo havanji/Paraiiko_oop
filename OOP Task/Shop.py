@@ -12,6 +12,7 @@ class Shop:
     def number_of_units(self):
         deafult = 0
         return f"Кількість видів товару в магазині: {deafult}"
+    pass
 
 
 # store = Shop("iCool", "електроніка")
@@ -37,7 +38,7 @@ class Discount(Shop):
 
     def get_discounts_ptoducts(self):
         return f"Сьогоднішні товари по знижці: {self.discount_products}"
-
+    pass
 
 # store_discount = Discount(["Apple Watch 3", "Mi Band 4", "Redmi AirDots 2", "iPhone SE"])
 #
