@@ -6,7 +6,6 @@ class User:
         self.email = email
         self.login_attempts = login_attempts
 
-
     def describe_user(self):
         return f"Ви ввійшли як {self.first_name} {self.last_name}"
 
@@ -39,9 +38,6 @@ class User:
 # print(us2.increment_login_attempts())
 # print(us3.increment_login_attempts())
 # print(us2.reset_login_attempts())
-
-
-
 
 
 # class Admin(User):
