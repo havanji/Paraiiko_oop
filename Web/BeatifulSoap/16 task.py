@@ -1,0 +1,6 @@
+import requests
+from bs4 import BeautifulSoup
+r = requests.get(url="https://python.org/")
+soup = BeautifulSoup(r.text, "lxml")
+print(soup.find_all("h1")[1].get_text())
+print(soup.find_all("h1")[1].parent)
